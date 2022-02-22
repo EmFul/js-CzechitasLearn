@@ -3,9 +3,29 @@ console.log("ahoj");
 /*takhle 
 viceradkovy*/
 
-console.log(soucet);
-let a= 54;
-let b= 10;
-let soucet= a+b
+ let minutVHodine=60;
+ let hodinVeDne=24;
+ let dnuVLednu=31;
 
-let prsi=true;
+ let vysledek= minutVHodine*hodinVeDne*dnuVLednu
+ console.log(vysledek)
+
+let jmeno='Marie'
+let vahavkg=50;
+let vyska=1.67;
+let vek=25;
+let bmi=vahavkg/vyska**2
+console.log(bmi)
+console.log('jmenuji se ' +jmeno+ ' je mi '+vek+' let a vazim  '+vahavkg+' kg merim '+vyska+' m a moje BMI je '+bmi )
+
+let a=1
+let b=2
+console.log(a>b)
+
+
+let jmeno=prompt("Jak se jmenujes?");
+let vek = Number (prompt("Kolik ti je let?"))
+let jakdlouho= 18-vek;
+console.log(jakdlouho)
+
+if (vek >=18) {console.log("Vase jmeno je "+jmeno+" je Vam "+vek+ " a tak muzes ridit")} else {console.log("Vase jmeno je" +jmeno+" a je Vam " +vek+ "musite pockat jeste"+jakdlouho)};
