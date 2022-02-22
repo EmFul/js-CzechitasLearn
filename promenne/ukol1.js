@@ -25,7 +25,6 @@ console.log(a>b)
 
 let jmeno=prompt("Jak se jmenujes?");
 let vek = Number (prompt("Kolik ti je let?"))
-let jakdlouho= 18-vek;
-console.log(jakdlouho)
 
-if (vek >=18) {console.log("Vase jmeno je "+jmeno+" je Vam "+vek+ " a tak muzes ridit")} else {console.log("Vase jmeno je" +jmeno+" a je Vam " +vek+ "musite pockat jeste"+jakdlouho)};
+
+if (vek >=18) {console.log("Vase jmeno je "+jmeno+" je Vam "+vek+ " a tak muzes ridit")} else {console.log("Vase jmeno je" +jmeno+" a je Vam " +vek+ "musite pockat jeste")};
